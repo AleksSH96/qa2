@@ -1,0 +1,169 @@
+body {
+  font-family: "Italic";
+  background-color: rgba(230, 63, 193, 0.575);
+  color: black(230, 63, 193, 0.575);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.header {
+  margin: 40px 0;
+}
+.header__avatar:hover {
+  color: rgb(17, 1, 15);
+}
+.header__avatar {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.header__title {
+  margin: 30px 0 10px 0;
+  font-size: 30px;
+  line-height: 1.2;
+  font-family: "Helvetica Neue";
+}
+
+.header__subtitle {
+  color: black;
+  font-size: 20px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.header_1 {
+  color: black;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.line {
+
+color: rgb(212, 176, 16);
+border-style: solid;
+}
+
+
+.link:hover {
+  color: rgb(73, 115, 194);
+}
+
+.img {
+  pointer-events:none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 40px;
+  height:40px;
+  background: rgb(209, 79, 79);
+  border: 1px solid rgba(119, 124, 41, 0.15);
+  border-radius: 5px;
+  cursor: pointer;
+  
+  font-size: 14px;
+  line-height: 2;
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  color: #a53e3e;
+  text-decoration: none;
+ 
+}
+
+.bxl-linkedin:before {
+  font-size: -webkit-xxx-large;
+  font size:40px;
+}
+
+.bxl-github:before {
+  font-size: -webkit-xxx-large;
+  font size:40px;
+
+}
+
+.bxl-whatsapp:before {
+  font-size: -webkit-xxx-large;
+  font size:40px;
+}
+
+.bxl-gmail:before {
+  font-size: -webkit-xxx-large;
+  font size:40px;
+}
+
+.bxl-telegram:before {
+
+font-size: -webkit-xxx-large;
+font size:40px;
+
+}
+
+.bxl-facebook:before {
+
+  font-size: -webkit-xxx-large;
+  font size:40px;
+  
+ }
+  
+
+
+.button-link:hover {
+  background-color: #060707;
+  color: #d61e1e;
+  box-shadow: 0 1px 0 rgba(27, 31, 36, 0.1);
+}
+
+img{
+  max-width: 300px;
+  height:200px
+
+}
+
+#myModal {
+  width: 480px; height: 360px;
+  padding: 18px 9px;
+  border-radius: 4px;
+  background-image: url(giphy.gif);
+  background-size: contain;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  margin: auto;
+  display: none;
+  opacity: 0;
+  z-index: 38;
+  text-align: center;
+ 
+}
+
+#myModal #myModal__close {
+  width: 21px; height: 21px;
+  position: absolute;
+  font-size: 29px;
+  top: 1px; right: 11px;
+  cursor: pointer;
+  display: block;
+}
+
+#myOverlay {
+  z-index: 37;
+  position: fixed;
+  background: rgba(0,0,0,.7);
+  width: 100%; height: 100%;
+  top: 0; left: 0;
+  cursor: pointer;
+  display: none;
+  
+}
+
+.myLinkModal {
+  text-decoration: none;
+  
+}
